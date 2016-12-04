@@ -1,0 +1,135 @@
+@font-face {
+    font-family: OstrichSans;
+    src: url("OstrichSans-Medium.otf");
+}
+
+@keyframes myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+html, body{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url("../img/cartographer.png");
+    color: #c8cbce;
+}
+
+div{
+    animation: myfadeInAnimation 2s;
+}
+
+#aboutMe {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align:center;
+    font-size: 140%;
+}
+
+#skillz {
+    margin-top: 10px;
+    margin-bottom: 300px;
+    margin-right: 15%;
+    margin-left: 10%;
+    text-align:center;
+    font-size: 120%;
+}
+
+#contact {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align:center;
+    font-size: 140%;
+}
+
+#achieve {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align:center;
+    font-size: 150%;
+}
+
+
+#nav{
+    list-style-type: none;
+    width:auto;
+    text-align:center;
+    background-color: #262673;
+}
+
+.item{
+    display: inline;
+    padding: 12px 14px;
+}
+
+img{
+    display: block;
+    border-radius: 30%;
+    filter: contrast(100%);
+    margin:15px;
+    transition: width 2s;
+
+}
+img:hover{
+
+    width: 300px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #b3b5b7;
+}
+
+div a{
+    color: #4f6d91;
+}
+
+header{
+    font-size: 150%;
+}
+
+ul{
+    width: 100px;
+    text-align:left;
+}
+
+li{
+    text-align: left;
+}
+
+a{
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+html{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+}
+
+input, textarea{
+    background-color: #e0e0eb;
+}
+
+#message{
+    height: 10%;
+    width: 50%;
+
+}
